@@ -46,7 +46,7 @@ signal contador : INTEGER range 0 to number_of_amostras-1;
 --componente instatiation
 BEGIN
 
-uut: mult1 PORT MAP (
+uut: FirDesign PORT MAP (
 clk => clk,
 reset => reset,
 clk_ad => clk_ad,
